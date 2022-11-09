@@ -14,7 +14,7 @@ var myselfID string
 
 func init() {
 	var err error
-
+	log.Println("testing auto deployment")
 	// You can set environment variables in the git-ignored .env file for convenience while running locally
 	err = gotenv.Load("stack.env")
 	if err == nil {
